@@ -4,13 +4,12 @@ import smtplib
 import sys
 import getpass
 
-resources = ["/projects.html"]
+resources = ["/<xyz>.html"]
 
 sites = {
-        "https://justkart.com":"",
-        "https://imdb.nimitkhurana.xyz":"",
-        "http://nimitkhurana.xyz":resources,
-        "https://www.google.com/u/0":""
+        "https://jsdbv.com":"",
+        "https://sadnvl.com":"",
+        "http://dvbk.com":resources
 		}
 
 
@@ -44,8 +43,8 @@ def log(text):
 
 
 def send_email(msg):
-    from_add = "nimitkhuranaa@gmail.com"
-    to_add = "nimbukhur@gmail.com"
+    from_add = "a@gmail.com"
+    to_add = "b@gmail.com"
     server = smtplib.SMTP("smtp.gmail.com",587)
     server.starttls()
     try:
