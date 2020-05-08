@@ -36,7 +36,7 @@ def checker(site_name):
 
 
 def log(text):
-	file_name = "/home/richie/.siteupchecker.txt"
+	file_name = ".siteupchecker.txt"
 	with open(file_name, "a") as f:
 		f.write(text)
 	f.close()
